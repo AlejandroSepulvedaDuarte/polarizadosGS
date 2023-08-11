@@ -1,0 +1,41 @@
+.somos {
+  background-color: #263449;
+  color: #f6f0f0;
+}
+.parrafosomos {
+  font-size: 25px;
+}
+.parrafosomos2 {
+  font-size: 25px;
+  color: #263449;
+}
+
+.imagenes-somos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+.somos-img {
+  width: 32%;
+
+  transition: transform 0.3s; /* Agrega una transición suave */
+}
+
+.somos-img:hover {
+  transform: scale(1.2); /* Aumenta el tamaño al pasar el mouse */
+}
+
+@media (max-width: 768px) {
+  .imagenes-somos {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  .somos-img {
+    width: 90%;
+
+    transition: transform 0.3s; /* Agrega una transición suave */
+  }
+}
